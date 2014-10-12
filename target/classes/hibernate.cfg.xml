@@ -5,7 +5,7 @@
 <hibernate-configuration>
 	
 	<session-factory>
-		<property name="connection.url">jdbc:postgresql://localhost:5432/fabiohbarbosa</property>
+		<property name="connection.url">jdbc:postgresql://localhost:5432/vraptor4</property>
 		<property name="connection.driver_class">org.postgresql.Driver</property>
 		<property name="connection.username">postgres</property>
 		<property name="connection.password">admin</property>
@@ -15,7 +15,7 @@
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 
-		<mapping class="com.wordpress.fabiohbarbosa.model.entity.Empresa"/>
+		<mapping class="com.wordpress.fabiohbarbosa.vraptor4.model.entity.Empresa"/>
 	</session-factory>
 	
 </hibernate-configuration>
